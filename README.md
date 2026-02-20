@@ -35,7 +35,7 @@ A fully functional Wordle clone built with **Pygame**, featuring a clean UI and 
 
 ```bash
 pip install pygame
-python game.py
+python WordleGame.py
 ```
 
 **Controls:**
@@ -65,7 +65,7 @@ An intelligent solver that uses **letter frequency analysis** and **positional s
 **Interactive mode** (you enter the result manually):
 
 ```bash
-python solver.py
+python WordleSolver.py
 ```
 
 After each suggested guess, enter the result as a 5-character string:
@@ -84,7 +84,7 @@ Guess result: xgxyx
 Current guess: ...
 ```
 
-**AI Benchmark mode** — To test the solver against the full answer list, set `ai = True` in `solver.py`:
+**AI Benchmark mode** — To test the solver against the full answer list, set `ai = True` in `WordleSolver.py`:
 
 ```python
 ai = True  # Run solver against all words automatically
@@ -133,6 +133,6 @@ python WordleSolver.py
 
 ---
 
-## 👤 Author
+## 👤 Authors
 
 Made with ❤️ by **Mohamed Saber**
